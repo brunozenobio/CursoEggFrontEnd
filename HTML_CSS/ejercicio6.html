@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <h1 style="font-size: 40px;">Registrar un usuario</h1>
+        <form action="./form.txt" method="POST" enctype="multipart/form-data">
+            <div>
+
+                <label name="nombre">Nombre del usuario</label>
+                <br>
+                <input type="text" name="nombre" required>
+            </div>
+            <div>
+
+                <label name="contrasenia">Contraseña del usuario</label>
+                <br>
+                <input type="password" name="contrasenia" required>
+            </div>
+            <div>
+
+                <label name="fecha">Fecha de nacimiento del usuario</label>
+                <br>
+                <input type="date" name="fecha" required>
+            </div>
+            <div>
+                <label name="sexo">Sexo del usuario</label>
+                <br>
+                <input type="radio" name="sexo" value="Hombre">Hombre
+                <br>
+                <input type="radio" name="sexo" value="Mujer">Mujer
+                <br>
+                <input type="radio" name="sexo" value="Mujer">Prefiero no decir
+            </div>
+            <div>
+                <label name="country">Pais de nacimiento del usuario</label>
+                <br>
+                <select name="coutry" id="">
+                    <option value="Argentina">Argentina</option>
+
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Ecuador">Ecuador</option>
+                </select>
+            </div>
+            <div>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </div>
+
+
+
+        </form>
+    </section>
+</body>
+
+</html>
