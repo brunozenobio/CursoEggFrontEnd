@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(105, 105, 188);
+}
+.h1titulo{
+    text-align: center;
+    font-family:'Poppins',sans-serif;
+}
+.h2titulo{
+    text-align: center;
+    font-family:'Poppins',sans-serif;
+}
+
+p{
+    color: violet;
+    font-family:'Poppins',sans-serif;
+}

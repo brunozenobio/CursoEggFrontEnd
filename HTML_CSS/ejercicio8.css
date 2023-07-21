@@ -1,0 +1,10 @@
+#link1{
+    color: red;
+}
+#link2:hover{
+    color:#FFF;
+    background-color: #CC0000;
+}
+#link3:visited{
+    background: #CCC;
+}

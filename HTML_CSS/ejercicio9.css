@@ -1,0 +1,59 @@
+body{
+    font-family: 'PT Serif',sans-serif;
+    
+}
+p{
+    font-size: small;
+}
+
+#titulo{
+    color: rgb(16, 140, 171);
+}
+p:first-of-type strong{
+    color:red;
+}
+
+.destacado{
+    color:rgb(158, 158, 56);
+}
+#subtitulo{
+    color:blue;
+}
+p a{
+    color: red;
+}
+p a em{
+    color:blue;
+}
+p .especial{
+    color: violet;
+}
+
+table{
+    border-collapse: collapse;
+}
+td,th{
+    padding: 6px;
+}
+.especial{
+    font-weight: 700;
+    color:rgb(231, 231, 96)
+}
+table strong{
+    color:rgb(231, 231, 96)
+}
+tr th{
+    color:red;
+}
+tr td{
+    color:green;
+}
+#adicional p{
+    color:rgb(231, 231, 96)
+}
+#especial{
+    color:violet;
+}
+#adicional p a{
+    color:green;
+}
