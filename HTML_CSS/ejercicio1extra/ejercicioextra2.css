@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+}
+table{
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+tr{
+    text-align: center;
+}
+
+th,td{
+
+    padding: 7px 9px;
+}
+
+td{
+    text-align: center;
+}
+tr th:first-of-type{
+    background-color: #E6F3FF;
+}
+
+.eurodolar,.libradolar td{
+    background: #FFFFCC;
+}
+.columna_filas th{
+    background-image: url(../HTML_CSS/imgejercicio2/fondo_gris.gif);
+    text-align: center;
+}
+tr{
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+tr img{
+    scale:1.2
+}
+
