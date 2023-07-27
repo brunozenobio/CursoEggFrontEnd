@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -26,41 +27,27 @@
             </li>
             
           </ul>
-         
+          
         </div>
       </div>
     </nav>
-    <table class="table table-dark table-striped">
-        <thead>
-          <tr>
-            
-            <th scope="col">Nombre</th>
-            <th scope="col">Precio</th>
-            <th scope="col">Detalle</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td scope="row">Producto1</td>
-            <td>10000</td>
-            <td><a class="btn btn-warning" href="./productos/producto1.html" role="button">Ver producto</a></td>
-            
-          </tr>
-          <tr>
-            <td scope="row">Producto2</td>
-            <td>10000</td>
-            <td><a class="btn btn-warning" href="./productos/producto2.html" role="button">Ver producto</a></td>
-          </tr>
-          <tr>
-            <td scope="row">Producto3</td>
-            <td >10000</td>
-            <td><a class="btn btn-warning" href="./productos/producto3.html" role="button">Ver producto</a></td>
-            
-            
-          </tr>
-        </tbody>
-      </table>
-      
+
+    <section class = "main-section">
+      <div>
+        <img src="https://i.pinimg.com/originals/8b/ed/07/8bed07b0525de6c40cec2fd811fa783c.png" alt="laptop" class="img-thumbnail img-fluid">
+      </div>
+      <div class = " producto">
+        <p class = "precio">
+          <strong>
+            $1500
+          </strong>  
+        </p>
+        <p class="prodc-muestra">PRODUCTO DE <br> MUESTRA</p>
+        <p class="desc">Lorem ipsum dolor sit amet  <br> consectetur, adipisicing elit. Vel, nisi!.</p>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+      </div>
+    </section>
+    
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>

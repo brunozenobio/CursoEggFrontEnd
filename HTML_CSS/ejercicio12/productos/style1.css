@@ -1,0 +1,50 @@
+.main-section{
+    display: inline-flex;
+    align-items: center;
+    
+
+}
+
+
+.img-thumbnail{
+    margin-top: 100px;
+    height: 300px;
+    margin-left: 150px;
+    max-width: 300px;
+}
+.producto{
+    padding-top: 100px;
+
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color: #f2f2f2;
+    width:300px;
+
+    height: 100%;
+
+    
+    
+    
+}
+.precio{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+.prodc-muestra{
+    text-align: center;
+    font-size: 12px;
+
+    
+
+
+}
+.desc{
+    font-size: 10px;
+    text-align: center;
+    margin-top: -7px;
+}
+button{
+    width: 100%;
+}
