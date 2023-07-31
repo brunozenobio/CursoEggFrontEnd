@@ -32,9 +32,13 @@ tr{
     text-align: left;
     align-items: center;
     justify-content: center;
+    background-image: image();
 }
 
 tr img{
     scale:1.2
+    
 }
+
+
 
