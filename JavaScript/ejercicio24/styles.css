@@ -1,0 +1,46 @@
+.form{
+    display: flex;
+    justify-content: center;
+    
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.form label{
+    text-align: center;
+    
+}
+#funcionCalc{
+    display: flex;
+    justify-content: start;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+form:first-child{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: blueviolet;
+}
+.radio{
+    color: black;
+    font-size: 30px;
+    display: inline;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.radio input{
+    width: 200px;
+    height: 50px;
+}
+
+#submit-button{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 30px;
+}
